@@ -35,4 +35,9 @@ public class MapTester
     {
         return phoneBook.containsKey(key);
     }
+    
+    public void printKeys()
+    {
+        System.out.println(phoneBook.keySet());
+    }
 }
