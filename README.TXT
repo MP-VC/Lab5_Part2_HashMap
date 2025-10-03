@@ -18,3 +18,11 @@ They both coexist
 31.
 It returns false
 
+34.
+HashSets do not allow duplicate elements and it does not have an order.
+
+35.
+You know that Hashset has no duplicates
+
+36.
+Searching for values can be harder if its not trimmed
