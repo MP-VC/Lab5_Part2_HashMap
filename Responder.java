@@ -32,18 +32,18 @@ public class Responder
      * 
      * @return  A string that should be displayed as the response
      */
-    public void generateResponse(String word)
+    public String generateResponse(String word)
     {
         // Pick a random number for the index in the default response 
         // list. The number will be between 0 (inclusive) and the size
         // of the list (exclusive).
         if (replies.containsKey(word))
         {
-            System.out.println(replies.get(word));
+            return replies.get(word);
         }
         else
         {
-            pickDefaultResponse();
+            return pickDefaultResponse();
         }
     }
     
