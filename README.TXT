@@ -5,5 +5,12 @@ A hashmap has a changable initial capacity.
 25.
 put(K key, V value)
 The K key and V value can have the same type.
+
 26.
 size() method
+
+28.
+It gets overidden
+
+29.
+They both coexist

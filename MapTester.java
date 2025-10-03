@@ -30,4 +30,9 @@ public class MapTester
     {
         return phoneBook.get(name);
     }
+    
+    public boolean verifyKey(String key)
+    {
+        return phoneBook.containsKey(key);
+    }
 }
